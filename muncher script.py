@@ -77,4 +77,4 @@ with open('muncheroutput.csv','w', encoding ='UTF8',newline='') as f:
       #encoded=printMe.encode('utf8')
       #sys.stdout.buffer.write (encoded)
       writer.writerow([x.name,x.totalPts,x.totalClears])
-   print("finished processing all the levels"
+   print("finished processing all the levels")
