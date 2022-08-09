@@ -66,7 +66,7 @@ while True:
             except:
                print("three failures wtf for clearers on " + line)
                continue
-
+   print (line+" completed")
    line2=line
    
 with open('muncheroutput.csv','w', encoding ='UTF8',newline='') as f:
@@ -77,3 +77,4 @@ with open('muncheroutput.csv','w', encoding ='UTF8',newline='') as f:
       #encoded=printMe.encode('utf8')
       #sys.stdout.buffer.write (encoded)
       writer.writerow([x.name,x.totalPts,x.totalClears])
+   print("finished processing all the levels"
